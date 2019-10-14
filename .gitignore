@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.DS_Store
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+Session.vim
+
+# Node / Yarn
+npm-debug.log
+node_modules
+yarn.lock
+
+# Output Dirs
+/dist
+coverage
+.cache
+
+# Helper Scripts
+push.sh
+.env
+.env.development
+
+Release\.key
+
+apiarcade
+
+tx/
+
+\.prettierignore
+
+\.vscode/launch\.json
